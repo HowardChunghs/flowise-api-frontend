@@ -19,6 +19,7 @@ export const createPrediction = async (req, res) => {
     }
     );
 
+    
     const data = await response.json();
     console.log(data);
 
